@@ -1,16 +1,79 @@
-# React + Vite
+🏏 BPL Cricket Players App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + Vite based web application that displays Bangladesh Premier League (BPL) cricket players with detailed information including player image, country, role, rating, batting style, bowling style, and price in USD.
 
-Currently, two official plugins are available:
+🚀 Live Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📸 Player Image Display
 
-## React Compiler
+🌍 Player Country
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🎯 Playing Role
 
-## Expanding the ESLint configuration
+⭐ Rating System
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🏏 Batting & Bowling Style
+
+💲 Price in USD
+
+🔄 Dynamic Data Rendering using JSON
+
+⚡ Built with Vite for fast performance
+
+🛠️ Technologies Used
+
+React.js
+
+Vite
+
+Tailwind CSS
+
+JavaScript (ES6+)
+
+JSON Data 
+
+📂 Project Structure
+src/
+ ├── components/
+ │    └── PlayerCard.jsx
+ ├── data/
+ │    └── bplPlayers.json
+ ├── App.jsx
+ └── main.jsx
+
+ 📊 Data Source
+
+Player data is stored locally inside:
+
+src/data/bplPlayers.json 
+
+🎯 Future Improvements
+
+🛒 Add to Cart / Select Player Feature
+
+💰 Total Price Calculation
+
+🔍 Search & Filter Option
+
+📱 Fully Responsive UI
+
+💾 LocalStorage Integration
+
+👨‍💻 Author
+
+Abu Solayman Sefat
+Frontend Developer (React Learner)
+
+⭐ Conclusion
+
+This project is built for learning purposes to practice React fundamentals such as:
+
+Component-based architecture
+
+Props
+
+Mapping JSON data
+
+UI design with Tailwind
+
+Basic state management
