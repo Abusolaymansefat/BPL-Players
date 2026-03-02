@@ -21,7 +21,7 @@ function App() {
       <AvailablePlayers playersPromise={playersPromise}></AvailablePlayers>
      </Suspense>
 
-     <SelectedPlayers></SelectedPlayers>
+     {/* <SelectedPlayers></SelectedPlayers> */}
       
 
     </>

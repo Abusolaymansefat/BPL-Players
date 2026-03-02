@@ -32,14 +32,6 @@ JavaScript (ES6+)
 
 JSON Data 
 
-📂 Project Structure
-src/
- ├── components/
- │    └── PlayerCard.jsx
- ├── data/
- │    └── bplPlayers.json
- ├── App.jsx
- └── main.jsx
 
  📊 Data Source
 
